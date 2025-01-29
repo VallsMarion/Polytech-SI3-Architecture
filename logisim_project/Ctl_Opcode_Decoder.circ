@@ -265,10 +265,10 @@ end type_architecture;
       <a name="label" val="Opcode"/>
       <a name="width" val="6"/>
     </comp>
-    <comp lib="1" loc="(260,1200)" name="NOT Gate">
+    <comp lib="1" loc="(260,1220)" name="NOT Gate">
       <a name="size" val="20"/>
     </comp>
-    <comp lib="1" loc="(260,1220)" name="NOT Gate">
+    <comp lib="1" loc="(260,1230)" name="NOT Gate">
       <a name="size" val="20"/>
     </comp>
     <comp lib="1" loc="(270,1040)" name="NOT Gate">
@@ -287,9 +287,6 @@ end type_architecture;
       <a name="size" val="20"/>
     </comp>
     <comp lib="1" loc="(280,780)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="1" loc="(280,800)" name="NOT Gate">
       <a name="size" val="20"/>
     </comp>
     <comp lib="1" loc="(280,820)" name="NOT Gate">
@@ -379,9 +376,8 @@ end type_architecture;
     <wire from="(200,1140)" to="(250,1140)"/>
     <wire from="(200,1150)" to="(240,1150)"/>
     <wire from="(200,1160)" to="(230,1160)"/>
-    <wire from="(200,1210)" to="(230,1210)"/>
     <wire from="(200,1220)" to="(240,1220)"/>
-    <wire from="(200,1230)" to="(320,1230)"/>
+    <wire from="(200,1230)" to="(240,1230)"/>
     <wire from="(200,1240)" to="(250,1240)"/>
     <wire from="(200,1250)" to="(240,1250)"/>
     <wire from="(200,1260)" to="(230,1260)"/>
@@ -402,13 +398,11 @@ end type_architecture;
     <wire from="(220,740)" to="(220,760)"/>
     <wire from="(220,740)" to="(260,740)"/>
     <wire from="(220,790)" to="(220,800)"/>
-    <wire from="(220,800)" to="(260,800)"/>
+    <wire from="(220,800)" to="(330,800)"/>
     <wire from="(230,1040)" to="(230,1050)"/>
     <wire from="(230,1050)" to="(320,1050)"/>
     <wire from="(230,1160)" to="(230,1170)"/>
     <wire from="(230,1170)" to="(320,1170)"/>
-    <wire from="(230,1200)" to="(230,1210)"/>
-    <wire from="(230,1200)" to="(240,1200)"/>
     <wire from="(230,1260)" to="(230,1270)"/>
     <wire from="(230,1270)" to="(320,1270)"/>
     <wire from="(230,760)" to="(230,770)"/>
@@ -425,19 +419,16 @@ end type_architecture;
     <wire from="(250,1250)" to="(320,1250)"/>
     <wire from="(250,910)" to="(250,920)"/>
     <wire from="(250,920)" to="(260,920)"/>
-    <wire from="(260,1200)" to="(270,1200)"/>
     <wire from="(260,1220)" to="(320,1220)"/>
+    <wire from="(260,1230)" to="(320,1230)"/>
     <wire from="(260,670)" to="(260,680)"/>
     <wire from="(260,680)" to="(280,680)"/>
     <wire from="(270,1040)" to="(320,1040)"/>
     <wire from="(270,1140)" to="(320,1140)"/>
-    <wire from="(270,1200)" to="(270,1210)"/>
-    <wire from="(270,1210)" to="(320,1210)"/>
     <wire from="(280,720)" to="(340,720)"/>
     <wire from="(280,740)" to="(330,740)"/>
     <wire from="(280,760)" to="(360,760)"/>
     <wire from="(280,780)" to="(360,780)"/>
-    <wire from="(280,800)" to="(330,800)"/>
     <wire from="(280,820)" to="(340,820)"/>
     <wire from="(280,900)" to="(330,900)"/>
     <wire from="(280,920)" to="(330,920)"/>
