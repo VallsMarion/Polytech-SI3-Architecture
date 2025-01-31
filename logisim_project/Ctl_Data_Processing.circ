@@ -14,7 +14,7 @@
     </tool>
     <tool name="Probe">
       <a name="appearance" val="classic"/>
-      <a name="facing" val="west"/>
+      <a name="facing" val="north"/>
       <a name="radix" val="10unsigned"/>
     </tool>
     <tool name="Tunnel">
@@ -355,7 +355,7 @@ end type_architecture;
       <a name="facing" val="south"/>
       <a name="label" val="Enable"/>
     </comp>
-    <comp lib="0" loc="(640,740)" name="Splitter">
+    <comp lib="0" loc="(640,530)" name="Splitter">
       <a name="bit0" val="none"/>
       <a name="bit1" val="none"/>
       <a name="bit2" val="0"/>
@@ -363,7 +363,7 @@ end type_architecture;
       <a name="fanout" val="1"/>
       <a name="incoming" val="4"/>
     </comp>
-    <comp lib="0" loc="(640,770)" name="Tunnel">
+    <comp lib="0" loc="(640,560)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="ALU_Opcode"/>
       <a name="width" val="4"/>
@@ -376,7 +376,7 @@ end type_architecture;
       <a name="label" val="Rn"/>
       <a name="width" val="3"/>
     </comp>
-    <comp lib="0" loc="(780,710)" name="Tunnel">
+    <comp lib="0" loc="(780,500)" name="Tunnel">
       <a name="label" val="C"/>
     </comp>
     <comp lib="0" loc="(930,840)" name="Tunnel">
@@ -398,7 +398,7 @@ end type_architecture;
     <comp lib="1" loc="(640,410)" name="OR Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(760,710)" name="NAND Gate"/>
+    <comp lib="1" loc="(760,500)" name="NAND Gate"/>
     <comp lib="2" loc="(1180,110)" name="Multiplexer">
       <a name="width" val="3"/>
     </comp>
@@ -555,14 +555,14 @@ end type_architecture;
     <wire from="(630,270)" to="(630,310)"/>
     <wire from="(630,270)" to="(640,270)"/>
     <wire from="(640,410)" to="(650,410)"/>
-    <wire from="(640,740)" to="(640,770)"/>
+    <wire from="(640,530)" to="(640,560)"/>
     <wire from="(650,280)" to="(650,370)"/>
     <wire from="(650,370)" to="(650,410)"/>
-    <wire from="(650,410)" to="(650,690)"/>
-    <wire from="(650,690)" to="(700,690)"/>
-    <wire from="(660,730)" to="(700,730)"/>
+    <wire from="(650,410)" to="(650,480)"/>
+    <wire from="(650,480)" to="(700,480)"/>
+    <wire from="(660,520)" to="(700,520)"/>
     <wire from="(670,260)" to="(750,260)"/>
-    <wire from="(760,710)" to="(780,710)"/>
+    <wire from="(760,500)" to="(780,500)"/>
     <wire from="(930,840)" to="(990,840)"/>
     <wire from="(930,880)" to="(990,880)"/>
     <wire from="(930,920)" to="(970,920)"/>
